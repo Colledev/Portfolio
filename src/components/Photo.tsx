@@ -11,7 +11,7 @@ const Photo = () => {
                 }}
             >
                 <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] flex items-center justify-center ">
-                    <div className="w-[300px] h-[300px] xl:w-[400px] xl:h-[400px] rounded-full overflow-hidden bg-accent border-4 border-accent-hover ">
+                    <div className="w-[300px] h-[300px] xl:w-[400px] xl:h-[400px] rounded-full overflow-hidden bg-accent-hover border-4 border-accent ">
                         <img
                             src="/Eu.png"
                             className="object-cover w-full h-full"
