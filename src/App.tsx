@@ -3,8 +3,10 @@ import AppRoutes from "./routes/AppRoutes";
 
 export default function App() {
     return (
-        <Router>
-            <AppRoutes />
-        </Router>
+        <div>
+            <Router>
+                <AppRoutes />
+            </Router>
+        </div>
     );
 }
