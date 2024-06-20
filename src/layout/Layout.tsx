@@ -11,7 +11,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <>
             <div className="relative flex flex-col min-h-screen ">
-                <div className="mx-20 sm:mx-32 md:mx-26 lg:mx-44">
+                <div className="mx-20 sm:mx-32 md:mx-26 lg:mx-64">
                     <BackgroundParticles />
                     <div className="relative z-0">
                         <Header />

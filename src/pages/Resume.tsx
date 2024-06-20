@@ -7,14 +7,14 @@ import { skills } from "@/data/Skills";
 
 const Resume = () => {
     return (
-        <div className="mt-16 lg:mt-20">
+        <div className="mt-16 lg:mt-24">
             <motion.div>
                 <div className="container mx-auto">
                     <Tabs
                         defaultValue="experience"
                         className="flex flex-col xl:flex-row gap-[60px]"
                     >
-                        <TabsList className="flex flex-col w-full maw-w-[380px] mx-auto xl:mx-0 gap-6">
+                        <TabsList className="flex flex-col w-full maw-w-[380px] mx-auto xl:mx-0 gap-6 text-xl">
                             <TabsTrigger value="experience">
                                 Experience
                             </TabsTrigger>
@@ -102,7 +102,7 @@ const Resume = () => {
                         <TabsContent value="aboutme" className="w-full">
                             <ScrollArea className="h-[370px]">
                                 <div className="bg-[#232329] h-full py-10 px-10 rounded-xl flex flex-col justify-center items-center gap-4 text-white">
-                                    <div className="flex flex-col gap-2">
+                                    <div className="flex flex-col gap-4 ">
                                         <p>
                                             <strong>Name:</strong> Gabriel Colle
                                         </p>
