@@ -4,6 +4,13 @@ import Photo from "../components/Photo";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
+    const handleDownload = () => {
+        window.open(
+            "https://drive.google.com/file/d/1N9JZbo51FfVqQQyHhrmlHo6YaQvwhh3M/view?usp=sharing",
+            "_blank"
+        );
+    };
+
     return (
         <div className="container mx-auto mt-8 pb-1 xl:pb-2 mb-16">
             <div className="flex flex-col xl:flex-row items-center justify-between pt-6 xl:pt-6 xl:pb-24">
@@ -20,6 +27,7 @@ const Home = () => {
                             variant="outline"
                             size="lg"
                             className="uppercase flex items-center gap-2"
+                            onClick={handleDownload}
                         >
                             <span>Download CV</span>
                             <FiDownload className="text-xl" />
