@@ -19,7 +19,7 @@ export function Projects() {
     );
 
     return (
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center mb-16">
             <Carousel
                 opts={{
                     align: "start",

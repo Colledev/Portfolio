@@ -5,7 +5,7 @@ import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
     return (
-        <div className="container mx-auto mt-8 pb-1 xl:pb-2">
+        <div className="container mx-auto mt-8 pb-1 xl:pb-2 mb-16">
             <div className="flex flex-col xl:flex-row items-center justify-between pt-6 xl:pt-6 xl:pb-24">
                 {/* text */}
                 <div className="text-center xl:text-left order-2 xl:order-none">

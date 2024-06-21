@@ -4,7 +4,6 @@ import Home from "../pages/Home";
 import Resume from "../pages/Resume";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
-import HireMe from "../pages/HireMe";
 import Transition from "../components/Transition";
 import { Route, Routes } from "react-router-dom";
 
@@ -47,16 +46,6 @@ const AppRoutes: React.FC = () => {
                     <Layout>
                         <Transition>
                             <Contact />
-                        </Transition>
-                    </Layout>
-                }
-            />
-            <Route
-                path="/hire-me"
-                element={
-                    <Layout>
-                        <Transition>
-                            <HireMe />
                         </Transition>
                     </Layout>
                 }

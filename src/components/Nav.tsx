@@ -34,16 +34,6 @@ const Nav: React.FC = () => {
             >
                 Projects
             </NavLink>
-            <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                    isActive
-                        ? "text-blue-800 border-b-2 border-blue-800"
-                        : "hover:text-blue-800 "
-                }
-            >
-                Contact
-            </NavLink>
         </div>
     );
 };

@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     const navigate = useNavigate();
 
     const handleHireMe = () => {
-        navigate("/hire-me");
+        navigate("/contact");
     };
 
     return (
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
             </div>
             <div className="hidden xl:flex gap-8 items-center ">
                 <Nav />
-                <Button onClick={handleHireMe}>Hire me</Button>
+                <Button onClick={handleHireMe}>Contact</Button>
             </div>
             <div className="xl:hidden">
                 <MobileNav />

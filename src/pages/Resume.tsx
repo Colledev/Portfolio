@@ -7,7 +7,7 @@ import { skills } from "@/data/Skills";
 
 const Resume = () => {
     return (
-        <div className="mt-2 sm:mt-2 xl:mt-44">
+        <div className="mt-2 sm:mt-2 xl:mt-16 mb-16">
             <motion.div>
                 <div className="container mx-auto">
                     <div className="flex justify-center mb-8 xl:mb-20 text-5xl sm:text-6xl">
