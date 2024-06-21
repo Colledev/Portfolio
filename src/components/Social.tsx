@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 interface SocialProps {
-    iconStyles?: string; // Definindo iconStyles como uma propriedade opcional
+    iconStyles?: string;
 }
 
 const Social: React.FC<SocialProps> = ({ iconStyles }) => {

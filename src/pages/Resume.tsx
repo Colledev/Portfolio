@@ -7,9 +7,12 @@ import { skills } from "@/data/Skills";
 
 const Resume = () => {
     return (
-        <div className="mt-16 lg:mt-24">
+        <div className="mt-2 sm:mt-2 xl:mt-44">
             <motion.div>
                 <div className="container mx-auto">
+                    <div className="flex justify-center mb-8 xl:mb-20 text-5xl sm:text-6xl">
+                        <h1>Resume</h1>
+                    </div>
                     <Tabs
                         defaultValue="experience"
                         className="flex flex-col xl:flex-row gap-[60px]"
@@ -120,7 +123,7 @@ const Resume = () => {
                                         </p>
                                         <p>
                                             <strong>Languages:</strong> English,
-                                            Portuguese, Deutsch
+                                            Portuguese, German
                                         </p>
                                         <p>
                                             <strong>Job:</strong> Available
