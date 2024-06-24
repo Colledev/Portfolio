@@ -83,4 +83,14 @@ export const projectsBackend: Project[] = [
         repository: "https://github.com/Colledev/Movie-Catalog-API-backend",
         status: "Completed",
     },
+    {
+        title: "oAuth-Javascript",
+        image: "./Projects/oAuth-Google.png",
+        description: "Project to authenticate with Google using oAuth Passport",
+        technologies: "Node.js, JavaScript, Express, Passport, React, Tailwind",
+        moreInfo:
+            "Implemented Features\n\noAuth Authentication: Users can log in with their Google accounts to authenticate and authorize access to their account data.\nProfile Information: View user profile details such as display name, email.",
+        repository: "https://github.com/Colledev/oAuth-Javascript",
+        status: "Completed",
+    },
 ];
