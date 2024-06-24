@@ -13,7 +13,7 @@ const FullStackProjects = ({
     setSelectedProject: (project: Project) => void;
 }) => (
     <div>
-        <div className="flex justify-center mb-6 xl:mb-12 text-lg sm:text-3xl">
+        <div className="flex justify-center mb-6 xl:mb-12 text-lg sm:text-3xl font-bold">
             <h1>Projects FullStack</h1>
         </div>
         <CarouselContent>
