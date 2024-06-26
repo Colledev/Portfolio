@@ -73,6 +73,18 @@ export const projectsFullStack: Project[] = [
 
 export const projectsBackend: Project[] = [
     {
+        title: "Multi-Factor Authentication",
+        image: "./Projects/Multi-Factor Authentication.png",
+        description:
+            "This project demonstrates how to implement Multi-Factor Authentication speakeasy and qrcode. It allows users to authenticate with MFA for more security.",
+        technologies:
+            "Node.js, Express, swagger, speakeasy, qrcode, Javascript, PostgreSQL",
+        moreInfo:
+            "Implemented Features\n\nJWT Authentication: Implementation of JWT-based authentication with endpoints for user registration, login, and profile update.\n Multi-Factor Authentication using speakeasy and qrcode for better security of authentication.",
+        repository: "https://github.com/Colledev/user-auth-mfa",
+        status: "Completed",
+    },
+    {
         title: "Movie Catalog API",
         image: "./Projects/Movie-Catalog-API.png",
         description: "Project authentication JWT and CRUD for a film catalog",
