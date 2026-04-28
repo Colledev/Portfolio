@@ -1,28 +1,23 @@
 export interface Experience {
-    period: string;
-    title: string;
-    location: string;
+  period: string;
+  title: string;
+  location: string;
 }
 
 export const experiences: Experience[] = [
-    {
-        period: "2024 - Present",
-        title: "Freelance Web Developer",
-        location: "Home Office",
-    },
-    {
-        period: "2024/1 - 2024/3",
-        title: "Intern Maintenance",
-        location: "Solabia Biotecnológica",
-    },
-    {
-        period: "2020/12 - 2024/1",
-        title: "Financial",
-        location: "DISTRIBUIDORA DE MATERIAIS ELÉTRICOS",
-    },
-    {
-        period: "2020/1 - 2020/12",
-        title: "Financial",
-        location: "L.A SEGURANÇA ELETRÔNICA E TI",
-    },
+  {
+    period: "2026/1 - Present",
+    title: "Mid-level Full Stack Developer",
+    location: "Euro condominios",
+  },
+  {
+    period: "2025/1 - 2025/12",
+    title: "Junior Full Stack Developer",
+    location: "Euro condominios",
+  },
+  {
+    period: "2024/7 - 2024/12",
+    title: "Intern",
+    location: "Euro condominios",
+  },
 ];

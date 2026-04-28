@@ -1,11 +1,13 @@
 const Footer = () => {
-    return (
-        <div className="bg-accent border-2 border-accent-hover w-full absolute bottom-0">
-            <div className="container mx-auto flex justify-center items-center h-12">
-                <p className="text-white text-sm">© 2024 Gabriel Colle</p>
-            </div>
-        </div>
-    );
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <div className="w-full border-t border-white/10 bg-[#171a1f]">
+      <div className="container mx-auto flex justify-center items-center h-12">
+        <p className="text-zinc-200 text-sm">© {currentYear} Gabriel Colle</p>
+      </div>
+    </div>
+  );
 };
 
 export default Footer;
